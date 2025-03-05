@@ -1,0 +1,116 @@
+body {
+
+    background-color:#1a1f3d;
+}
+
+h2 {
+    color: #ffffff;
+}
+
+#cal-title {
+
+    color: #ffffff;
+    font-size:xx-large;
+}
+
+.fc {
+    background-color: rgb(0, 55, 110);
+    margin-left: 40px;
+    box-shadow: 3.8px 7.5px 7.5px rgb(49, 47, 47);
+}
+
+table {
+
+    background-color:#5c6b99;
+    box-shadow: 3px 7px 13px grey;
+    color: #e0e8f5;
+}
+
+button {
+
+    background-color: #1a1f3d;
+}
+
+.fc-daygrid-day-events {
+    
+    font-size: small;
+}
+
+#draggable-el {
+
+    
+    background-color:#e0e8f5;
+    border-radius: 7px;
+    padding: 10px;
+    box-shadow: 7px 5px 7px rgb(174, 222, 255);
+    width: 300px;
+    color:#1a1f3d;
+    padding-bottom: 30px;
+
+}
+
+#drag-title {
+
+    text-align: center;
+    
+}
+
+#drag-evnt {
+
+    cursor: pointer;
+}
+
+#drag-evnt:hover {
+
+    border: 2px solid #839ace;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#addEventFld {
+
+    margin-top: 40px;
+    background-color:#e0e8f5;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 7px 5px 7px rgb(174, 222, 255);
+    width: 300px;
+    color:black;
+}
+
+#showingEvent {
+
+    margin-top: 25px;
+    padding-right: 30px;
+    background-color:#e0e8f5;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 7px 5px 7px rgb(174, 222, 255);
+    width: 300px;
+    color:black;
+
+}
+
+.container {
+    display: flex; 
+    width: 100%; 
+    height: 100vh; 
+}
+
+.left-side {
+    width: 300px;
+    padding: 20px; 
+    
+}
+
+.right-side {
+    flex: 1; 
+    padding: 20px;
+}
+
+#cal-title {
+
+    text-align: center;
+}

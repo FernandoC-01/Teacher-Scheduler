@@ -1,0 +1,31 @@
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers calendar */
+    width: 100%;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px; /* Adds spacing */
+}
+
+.logoutBttn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background: #5c6b99;
+    color: ghostwhite;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.logoutBttn:hover {
+    background: #6e81b8;
+}

@@ -1,0 +1,26 @@
+.otp-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5c6b99;
+    margin-bottom: 10px;
+}
+
+.resend-btn {
+    background-color: #5c6b99;
+    color: ghostwhite;
+    border: none;
+    width: 100px;
+    height: 45px;
+    /* padding: 10px; */
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.resend-btn:hover {
+    background-color: #1a1f3d;
+}

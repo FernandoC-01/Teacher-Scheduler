@@ -1,0 +1,137 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.header-img{
+    width: 75%;
+}
+
+.text{
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a1f3d
+}
+
+.login-container {
+    display: flex;
+    margin: auto;
+    flex-direction:column;
+    justify-content: center;
+    background: #e0e8f5;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 50px;
+    width: 45%;
+}
+
+.login-inputs {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 70px;
+    background: ghostwhite;
+    border-radius: 10px;
+}
+
+.input input {
+    margin: auto;
+    background: transparent;
+    height: 50px;
+    width: 90%;
+    border: none;
+    font-size: 19px;
+}
+
+.submit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    margin: 20px auto;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #1a1f3d;
+    color: ghostwhite;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toCreateAcc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background: #5c6b99;
+    color: ghostwhite;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.toCreateAcc:hover{
+    background: gray;
+}
+
+.submit:hover{
+    background: gray;
+}
+
+.divider {
+    color:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px; 
+    font-weight: bold;
+    margin: 20px 0;
+    white-space: nowrap; 
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+    margin: 0 10px;
+}
+
+.forgot-p {
+    text-decoration: none;
+    color: #1a1f3d;
+    font-size: 18px;
+}
+
+.forgot-p:hover {
+    text-decoration: underline;
+}
+
+.logoutBttn{
+    display: flex;
+    
+}
